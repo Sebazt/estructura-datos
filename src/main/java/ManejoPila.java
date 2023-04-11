@@ -59,7 +59,7 @@ public class ManejoPila {
             System.out.println("La pila esta vacia");
         }else{
            for (int i = 0; i<tope; i++){
-               System.out.println("el nombre "+i+"es: "+vectorPila[i]);
+               System.out.println("el nombre "+(i+1)+"es: "+vectorPila[i]);
                i++;
            }
         }
